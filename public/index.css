@@ -1,0 +1,30 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App{
+  width:100vw;
+  height:100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #374954;
+}
+h1{
+  font-size: 5rem;
+  color:white;
+}
+button{
+  width:20rem;
+  margin:1rem;
+  /* display: inline-block; */
+  height:4rem;
+  font-size:3rem;
+  border:0;
+  border-radius: 10px;
+  background-color: #9DF1DF;
+  color:white;
+}
